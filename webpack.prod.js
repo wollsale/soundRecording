@@ -46,6 +46,6 @@ module.exports = merge(common, {
             filename: "[name].[hash].css",
             chunkFilename: "[id].css"
         }),
-        //new CriticalPlugin(),
+        new CriticalPlugin(),
     ],
 });

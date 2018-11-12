@@ -22,15 +22,15 @@ module.exports = {
         }
       },
       /* SCSS */
-      // {
-      //   test: /\.scss$/,
-      //   use: [
-      //     { loader: 'style-loader', options: { sourceMap: true } },
-      //     "css-loader",
-      //     "postcss-loader",
-      //     "sass-loader"
-      //   ]
-      // },
+      {
+        test: /\.scss$/,
+        use: [
+          { loader: 'style-loader', options: { sourceMap: true } },
+          "css-loader",
+          "postcss-loader",
+          "sass-loader"
+        ]
+      },
     ]
   },
   plugins: [
